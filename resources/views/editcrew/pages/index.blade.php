@@ -1,36 +1,6 @@
 @extends('editcrew.base')
 @section('title', 'Edit Crew | On-Demand Video Editing Support')
 @section('content')
-<div class="section sand-nav-sticky">
-    <div class="container">
-        <div data-collapse="medium" data-animation="default" data-duration="0" data-easing="ease" data-easing2="ease"
-             role="banner" class="navbar w-nav">
-            <div class="brand-wrapper-large"><a href="index.html" aria-current="page"
-                                                class="brand w-inline-block w--current"></a></div>
-            <a href="action/booking-meetings.html"
-               class="pop-out-nav-link w-nav-link">Book a Call <span class="button-icon"></span></a>
-            <nav role="navigation" class="nav-menu w-nav-menu">
-                <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
-                    <div class="nav-link-dropdown w-dropdown-toggle">
-                        <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                        <div>Our Clients</div>
-                    </div>
-                    <nav class="dropdown-list w-dropdown-list"><a href="customer-stories.html"
-                                                                  class="dropdown-link w-dropdown-link">Customer Stories</a><a
-                            href="case-studies.html"
-                            class="dropdown-link w-dropdown-link">Case Studies</a></nav>
-                </div>
-                <a href="our-work.html" class="nav-link w-nav-link">Our Work</a><a href="pricing.html"
-                                                                                   class="nav-link w-nav-link">Pricing</a><a
-                    href="about-us.html" class="nav-link w-nav-link">About Us</a><a
-                    href="index.html#faq" class="nav-link w-nav-link">FAQ</a>
-            </nav>
-            <div class="menu-button w-nav-button">
-                <div class="w-icon-nav-menu"></div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="section sand-pattern-1">
     <div class="container medium-top small-bottom">
         <div class="_8-column">
@@ -80,7 +50,8 @@
         <div class="hero-center">
             <h3 class="_2-25em-bottom-margin">Companies we&#x27;ve edited for</h3>
         </div>
-        <div class="logo-grid-1"><img
+        <div class="logo-grid-1">
+            <img
                 src="https://cdn.prod.website-files.com/61a67333c2fdc738b84daaee/644819af62d63c385a659bba_etsy.png"
                 loading="lazy" id="w-node-c8fe56d5-2c12-a937-e5ac-649f27ce83b5-1102a978" alt="Etsy logo"
                 class="logo-image-1"/><img
@@ -116,9 +87,9 @@
         <div class="_8-column">
             <div id="w-node-_4a32a3b9-d51c-048d-c1a3-c42953216f7e-1102a978" class="hero-center">
                 <div style="padding-top:56.27659574468085%" class="w-video w-embed">
-                    <iframe class="embedly-embed"
-                            src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Ffekftrkor3&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Ffekftrkor3&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Febd9d8568963efc1f38771ae9d3de9ec.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                            scrolling="no" allowfullscreen title="EC2_AboveTheFold_V6_E2"></iframe>
+{{--                    <iframe class="embedly-embed"--}}
+{{--                            src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Ffekftrkor3&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Ffekftrkor3&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Febd9d8568963efc1f38771ae9d3de9ec.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                            scrolling="no" allowfullscreen title="EC2_AboveTheFold_V6_E2"></iframe>--}}
                 </div>
             </div>
         </div>
@@ -598,9 +569,9 @@
             </div>
             <div id="w-node-_4930f3f0-4eab-a6c2-1071-ab3bcc43e578-1102a978" class="hero-center">
                 <div style="padding-top:56.27659574468085%" class="w-video w-embed">
-                    <iframe class="embedly-embed"
-                            src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2F5h0c5ku16z&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2F5h0c5ku16z&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F677a9ea906ff6b211bb6d9e32c2516c447779898.jpg%3Fimage_crop_resized%3D960x540&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=wistia"
-                            scrolling="no" allowfullscreen title="BookingPageVideo3_E3_V5 (1)"></iframe>
+{{--                    <iframe class="embedly-embed"--}}
+{{--                            src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2F5h0c5ku16z&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2F5h0c5ku16z&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F677a9ea906ff6b211bb6d9e32c2516c447779898.jpg%3Fimage_crop_resized%3D960x540&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                            scrolling="no" allowfullscreen title="BookingPageVideo3_E3_V5 (1)"></iframe>--}}
                 </div>
             </div>
         </div>
@@ -699,98 +670,98 @@
             <div role="list" class="_3-column-grid w-dyn-items">
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fpwq0kfvm8z&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fpwq0kfvm8z&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F22032b91fadc592c75c1bb9031a6e8114c7a622e.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fpwq0kfvm8z&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fpwq0kfvm8z&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F22032b91fadc592c75c1bb9031a6e8114c7a622e.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fzo0rmghx8x&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fzo0rmghx8x&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F091b9b180835860c4b84cd5326b6868ef0f46ef4.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fzo0rmghx8x&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fzo0rmghx8x&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F091b9b180835860c4b84cd5326b6868ef0f46ef4.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Faxmb98p4mv&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Faxmb98p4mv&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F3701ed178112716fd00e5f498a1210a48bf8a24a.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Faxmb98p4mv&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Faxmb98p4mv&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F3701ed178112716fd00e5f498a1210a48bf8a24a.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fi9m15ktkhu&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fi9m15ktkhu&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Ff720e305747fce365234a69151cfe2ed9ac2dd1c.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fi9m15ktkhu&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fi9m15ktkhu&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Ff720e305747fce365234a69151cfe2ed9ac2dd1c.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fn7mdeawz23&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fn7mdeawz23&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F7d55c536cd7d377618a48c160448744d1f5fdc59.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fn7mdeawz23&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fn7mdeawz23&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F7d55c536cd7d377618a48c160448744d1f5fdc59.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fvxpkx2topr&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fvxpkx2topr&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F428a556ecdf5b1acd1fe33b363db2b3347643959.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fvxpkx2topr&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fvxpkx2topr&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F428a556ecdf5b1acd1fe33b363db2b3347643959.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2F5rqeockoqq&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2F5rqeockoqq&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fcd169974771fd9bcc093985d1381f3eb850519d9.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2F5rqeockoqq&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2F5rqeockoqq&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fcd169974771fd9bcc093985d1381f3eb850519d9.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fzegeijddr4&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fzegeijddr4&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F873a981d294eabecd02dcb4f0f100bf4417bc007.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fzegeijddr4&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fzegeijddr4&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F873a981d294eabecd02dcb4f0f100bf4417bc007.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fcivdo7o3np&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fcivdo7o3np&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fcba18c0bb41a60b519f029037ad26e11679ecd05.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fcivdo7o3np&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fcivdo7o3np&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fcba18c0bb41a60b519f029037ad26e11679ecd05.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fqeo3igyyop&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fqeo3igyyop&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fe8d7012e41c103f53484a56e2ad08d32.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fqeo3igyyop&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fqeo3igyyop&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fe8d7012e41c103f53484a56e2ad08d32.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fxywtwjz074&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fxywtwjz074&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F3c72318765f51215ba975535366c7ed98e5f9a31.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fxywtwjz074&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fxywtwjz074&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F3c72318765f51215ba975535366c7ed98e5f9a31.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
                 <div role="listitem" class="w-dyn-item">
                     <div style="padding-top:56.25%" class="small-video w-video w-embed">
-                        <iframe class="embedly-embed"
-                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fyzgn85tdcv&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fyzgn85tdcv&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fd3fdacfb85e8758cec4b04381b6854f762d221fc.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"
-                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                        <iframe class="embedly-embed"--}}
+{{--                                src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fyzgn85tdcv&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fyzgn85tdcv&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2Fd3fdacfb85e8758cec4b04381b6854f762d221fc.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                width="960" height="540" scrolling="no" title="Wistia, Inc. embed" frameborder="0"--}}
+{{--                                allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                     </div>
                 </div>
             </div>
@@ -821,11 +792,11 @@
                     <div class="content-box">
                         <div>
                             <div style="padding-top:56.25%" class="_1em-bottom-margin w-video w-embed">
-                                <iframe class="embedly-embed"
-                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2F5za9ovahs0&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2F5za9ovahs0&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F6440e7909a72778ded68a5d790270f31697ffd60.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"
-                                        frameborder="0"
-                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                                <iframe class="embedly-embed"--}}
+{{--                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2F5za9ovahs0&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2F5za9ovahs0&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F6440e7909a72778ded68a5d790270f31697ffd60.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"--}}
+{{--                                        frameborder="0"--}}
+{{--                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                             </div>
                             <div class="_1-25em-bottom-margin">
                                 <p class="testimonial-text">&quot;Edit Crew has helped me to 10x, 20x my content
@@ -842,11 +813,11 @@
                     <div class="content-box">
                         <div>
                             <div style="padding-top:56.25%" class="_1em-bottom-margin w-video w-embed">
-                                <iframe class="embedly-embed"
-                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Ff3fnucxcus&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Ff3fnucxcus&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F32896abc83f4cce4c96b7d32bb6e5c0db4732e24.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"
-                                        frameborder="0"
-                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                                <iframe class="embedly-embed"--}}
+{{--                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Ff3fnucxcus&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Ff3fnucxcus&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F32896abc83f4cce4c96b7d32bb6e5c0db4732e24.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"--}}
+{{--                                        frameborder="0"--}}
+{{--                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                             </div>
                             <div class="_1-25em-bottom-margin">
                                 <p class="testimonial-text">&quot;We don&#x27;t have to think about training or
@@ -866,11 +837,11 @@
                     <div class="content-box">
                         <div>
                             <div style="padding-top:56.25%" class="_1em-bottom-margin w-video w-embed">
-                                <iframe class="embedly-embed"
-                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fu90e1rj2xs&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fu90e1rj2xs&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F86371ec8d53cc818b1b114bbbc1c92bb9b706f29.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"
-                                        frameborder="0"
-                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                                <iframe class="embedly-embed"--}}
+{{--                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Fu90e1rj2xs&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Fu90e1rj2xs&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F86371ec8d53cc818b1b114bbbc1c92bb9b706f29.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"--}}
+{{--                                        frameborder="0"--}}
+{{--                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                             </div>
                             <div class="_1-25em-bottom-margin">
                                 <p class="testimonial-text">&quot;It&#x27;s like having a couple extra teammates without
@@ -889,11 +860,11 @@
                     <div class="content-box">
                         <div>
                             <div style="padding-top:56.25%" class="_1em-bottom-margin w-video w-embed">
-                                <iframe class="embedly-embed"
-                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Ft8o8871p2h&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Ft8o8871p2h&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F03ba802906f504fb2510248b372710f2740f555d.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"
-                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"
-                                        frameborder="0"
-                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>
+{{--                                <iframe class="embedly-embed"--}}
+{{--                                        src="http://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Ffast.wistia.net%2Fembed%2Fiframe%2Ft8o8871p2h&amp;display_name=Wistia%2C+Inc.&amp;url=https%3A%2F%2Fben-2014.wistia.com%2Fmedias%2Ft8o8871p2h&amp;image=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F03ba802906f504fb2510248b372710f2740f555d.jpg%3Fimage_crop_resized%3D960x540&amp;key=96f1f04c5f4143bcb0f2e68c87d65feb&amp;type=text%2Fhtml&amp;schema=wistia"--}}
+{{--                                        width="960" height="540" scrolling="no" title="Wistia, Inc. embed"--}}
+{{--                                        frameborder="0"--}}
+{{--                                        allow="autoplay; fullscreen" allowfullscreen="true"></iframe>--}}
                             </div>
                             <div class="_1-25em-bottom-margin">
                                 <p class="testimonial-text">&quot;Having a dedicated editing team has allowed my company
