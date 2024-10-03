@@ -63,9 +63,9 @@
         <div class="container giant-top">
             <div class="_6-column-content">
                 <div id="w-node-be93f6b8-dc71-a655-418f-4bde43b26a88-43b26a85" class="center-align-text">
-                    <h2 class="_375em-bottom-margin"><a href="../customer-stories.html" class="link-13">Customer Stories</a></h2>
+                    <h2 class="_375em-bottom-margin"><a href="{{ route('page.stories') }}" class="link-13">Customer Stories</a></h2>
                     <h3 class="_1-5em-bottom-margin">Extending your in-house team&#x27;s capabilities has never been easier.<a
-                            href="https://webflow.com/pricing"><strong><br /></strong></a></h3><a href="../customer-stories.html"
+                            href="https://webflow.com/pricing"><strong><br /></strong></a></h3><a href="{{ route('page.stories') }}"
                                                                                                   class="large-button w-button">View More<span class="button-icon"></span></a>
                 </div>
             </div>
@@ -364,7 +364,7 @@
                                         alt="" class="plus-icon" /></div>
                             </a>
                             <div class="faq-content">
-                                <p class="faq-answer">To see our complete scope of work, <a href="../scope.html" target="_blank">visit
+                                <p class="faq-answer">To see our complete scope of work, <a href="{{ route('page.scope') }}" target="_blank">visit
                                         here</a></p>
                             </div>
                         </div>

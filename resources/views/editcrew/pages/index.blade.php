@@ -40,8 +40,8 @@
                         </div>
                     </div>
                 </div>
-                <div><a href="pricing.html" class="large-button _1em-right-margin w-button">View Pricing</a><a
-                        href="action/booking-meetings.html" class="large-button black w-button">Book a Call<span
+                <div><a href="{{ route('page.pricing') }}" class="large-button _1em-right-margin w-button">View Pricing</a><a
+                        href="{{ route('page.action.book') }}" class="large-button black w-button">Book a Call<span
                             class="button-icon"></span></a></div>
             </div>
         </div>
@@ -274,7 +274,7 @@
 </div>
 <div class="section">
     <div class="container">
-        <div class="hero-center"><a href="action/booking-meetings.html" class="large-button-2 black w-button">Book a
+        <div class="hero-center"><a href="{{ route('page.action.book') }}" class="large-button-2 black w-button">Book a
                 Call<span class="button-icon-2"></span></a></div>
     </div>
 </div>
@@ -660,7 +660,7 @@
     <div class="container giant-top">
         <div class="_6-column-content">
             <div id="w-node-_36a953d2-1e26-826a-abad-2eba0711a226-1102a978" class="center-align-text">
-                <h2 class="_375em-bottom-margin"><a href="our-work.html" target="_blank" class="link-12">Our Work</a>
+                <h2 class="_375em-bottom-margin"><a href="{{ route('page.our-work') }}" target="_blank" class="link-12">Our Work</a>
                 </h2>
             </div>
         </div>
@@ -768,7 +768,7 @@
         </div>
     </div>
     <div class="container small-top giant-bottom">
-        <div class="hero-center"><a href="our-work.html" class="large-button black w-button">View More Examples<span
+        <div class="hero-center"><a href="{{ route('page.our-work') }}" class="large-button black w-button">View More Examples<span
                     class="button-icon"></span></a></div>
     </div>
 </div>
@@ -776,11 +776,11 @@
     <div class="container giant-top">
         <div class="_6-column-content">
             <div id="w-node-be93f6b8-dc71-a655-418f-4bde43b26a88-43b26a85" class="center-align-text">
-                <h2 class="_375em-bottom-margin"><a href="customer-stories.html" class="link-13">Customer Stories</a>
+                <h2 class="_375em-bottom-margin"><a href="{{ route('page.stories') }}" class="link-13">Customer Stories</a>
                 </h2>
                 <h3 class="_1-5em-bottom-margin">Extending your in-house team&#x27;s capabilities has never been easier.<a
                         href="https://webflow.com/pricing"><strong><br/></strong></a></h3><a
-                    href="customer-stories.html"
+                    href="{{ route('page.terms') }}"
                     class="large-button w-button">View More<span class="button-icon"></span></a>
             </div>
         </div>
@@ -888,7 +888,7 @@
             <div class="book-call-top-bottom">
                 <div>
                     <section>
-                        <h2 class="white-text _375em-bottom-margin"><a href="action/booking-meetings.html"><strong
+                        <h2 class="white-text _375em-bottom-margin"><a href="{{ route('page.action.book') }}"><strong
                                     class="bold-text-2">Book a Call Today</strong></a></h2>
                     </section>
                     <ul role="list" class="check-list w-list-unstyled">
@@ -943,7 +943,7 @@
                     <h4 class="white-text _25em-bottom-margin">Reduce costs without compromising quality</h4>
                     <p class="_2-25em-bottom-margin">Average cost reductions: 63%<br/>Average time savings: 32 hrs/week
                     </p><a
-                        href="action/booking-meetings.html" class="large-button no-border w-button"><strong>Book a
+                        href="{{ route('page.action.book') }}" class="large-button no-border w-button"><strong>Book a
                             Call</strong><span class="button-icon-2"></span></a>
                 </div>
             </div>
@@ -1131,7 +1131,7 @@
                                     alt="" class="plus-icon"/></div>
                         </a>
                         <div class="faq-content">
-                            <p class="faq-answer">To see our complete scope of work, <a href="scope.html"
+                            <p class="faq-answer">To see our complete scope of work, <a href="{{ route('page.scope') }}"
                                                                                         target="_blank">visit
                                     here</a></p>
                         </div>

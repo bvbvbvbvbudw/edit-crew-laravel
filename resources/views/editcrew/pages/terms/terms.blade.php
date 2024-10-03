@@ -16,9 +16,9 @@
                 <p>You (referred to as “Customer”) accept our Terms of Service, detailed herein, upon clicking the checkbox in
                     our checkout process (which is required to complete the form). You agree that you’ve reviewed and understand
                     the content within our knowledge base outlining details on how our service works and our scope: <a
-                        href="scope.html" target="_blank">https://www.editcrew.com/scope</a></p>
+                        href="{{ route('page.scope') }}" target="_blank">https://www.editcrew.com/scope</a></p>
                 <p>Any changes or modification will be posted by Edit Crew to <a
-                        href="terms-conditions.html">www.editcrew.com/terms-conditions</a> and become effective upon posting of the
+                        href="{{ route('page.terms') }}">www.editcrew.com/terms-conditions</a> and become effective upon posting of the
                     revisions on this document.</p>
                 <p>You are responsible for regularly reviewing the Site to obtain timely notice of such changes or
                     modifications. Your continued use of the Services following Edit Crew posting of any changes or modifications
@@ -149,9 +149,9 @@
                 <p>You (referred to as “Customer”) accept our Terms of Service, detailed herein, upon clicking the checkbox in
                     our checkout process (which is required to complete the form). You agree that you’ve reviewed and understand
                     the content within our knowledge base outlining details on how our service works and our scope: <a
-                        href="scope.html" target="_blank">https://www.editcrew.com/scope</a></p>
+                        href="{{ route('page.scope') }}" target="_blank">https://www.editcrew.com/scope</a></p>
                 <p>Any changes or modification will be posted by Edit Crew to <a
-                        href="terms-conditions.html">www.editcrew.com/terms-conditions</a> and become effective upon posting of the
+                        href="{{ route('page.terms') }}">www.editcrew.com/terms-conditions</a> and become effective upon posting of the
                     revisions on this document.</p>
                 <p>You are responsible for regularly reviewing the Site to obtain timely notice of such changes or
                     modifications. Your continued use of the Services following Edit Crew posting of any changes or modifications

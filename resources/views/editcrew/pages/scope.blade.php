@@ -94,7 +94,7 @@
                                     target="_blank" href="http://frame.io/">Frame.io</a>. We advise you to download the exports and let us
                                 know once a project is approved.</li>
                             <li>We do not operate 365 days a year, in observance of our editing team’s local holidays. Click <a
-                                    href="observed-holidays.html" target="_blank">here</a> to see Edit Crew’s days off.</li>
+                                    href="{{ route('page.holidays') }}" target="_blank">here</a> to see Edit Crew’s days off.</li>
                             <li>Our hours of operation are as follows: </li>
                             <li>‍<strong>Monday-Friday, 9 am-6 pm Central Time (March 11-November 3)</strong></li>
                             <li><strong>Monday-Friday, 8 am-5 pm Central Time (November 4-March 10)</strong></li>

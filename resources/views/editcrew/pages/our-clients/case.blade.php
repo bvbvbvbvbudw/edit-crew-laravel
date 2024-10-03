@@ -170,7 +170,7 @@
                 <div class="book-call-top-bottom">
                     <div>
                         <section>
-                            <h2 class="white-text _375em-bottom-margin"><a href="action/booking-meetings.html"><strong
+                            <h2 class="white-text _375em-bottom-margin"><a href="{{ route('page.action.book') }}"><strong
                                         class="bold-text-2">Book a Call Today</strong></a></h2>
                         </section>
                         <ul role="list" class="check-list w-list-unstyled">
@@ -221,7 +221,7 @@
                         </div>
                         <h4 class="white-text _25em-bottom-margin">Reduce costs without compromising quality</h4>
                         <p class="_2-25em-bottom-margin">Average cost reductions: 63%<br />Average time savings: 32 hrs/week</p><a
-                            href="action/booking-meetings.html" class="large-button no-border w-button"><strong>Book a
+                            href="{{ route('page.action.book') }}" class="large-button no-border w-button"><strong>Book a
                                 Call</strong><span class="button-icon-2"></span></a>
                     </div>
                 </div>
@@ -233,7 +233,7 @@
             <div class="_6-column-content">
                 <div id="w-node-bdf75a41-64ce-dd04-b34e-f1e9eb3920b2-eb3920af" class="center-align-text">
                     <h3 class="white-text">Frequently Asked Questions<a
-                            href="https://webflow.com/design/editcrew#testimonials"><br /></a></h3>
+                            href="{{ route('page.index') }}#faq"><br /></a></h3>
                 </div>
             </div>
         </div>
@@ -374,7 +374,7 @@
                                         alt="" class="plus-icon" /></div>
                             </a>
                             <div class="faq-content">
-                                <p class="faq-answer">To see our complete scope of work, <a href="scope.html" target="_blank">visit
+                                <p class="faq-answer">To see our complete scope of work, <a href="{{ route('page.scope') }}" target="_blank">visit
                                         here</a></p>
                             </div>
                         </div>
