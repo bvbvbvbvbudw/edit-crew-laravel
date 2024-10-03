@@ -170,7 +170,7 @@
                 <div class="book-call-top-bottom">
                     <div>
                         <section>
-                            <h2 class="white-text _375em-bottom-margin"><a href="{{ route('page.action.book') }}"><strong
+                            <h2 class="white-text _375em-bottom-margin"><a href="{{ route('page.action.booking') }}"><strong
                                         class="bold-text-2">Book a Call Today</strong></a></h2>
                         </section>
                         <ul role="list" class="check-list w-list-unstyled">
@@ -221,7 +221,7 @@
                         </div>
                         <h4 class="white-text _25em-bottom-margin">Reduce costs without compromising quality</h4>
                         <p class="_2-25em-bottom-margin">Average cost reductions: 63%<br />Average time savings: 32 hrs/week</p><a
-                            href="{{ route('page.action.book') }}" class="large-button no-border w-button"><strong>Book a
+                            href="{{ route('page.action.booking') }}" class="large-button no-border w-button"><strong>Book a
                                 Call</strong><span class="button-icon-2"></span></a>
                     </div>
                 </div>

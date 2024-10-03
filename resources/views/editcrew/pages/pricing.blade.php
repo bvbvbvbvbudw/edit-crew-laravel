@@ -67,7 +67,7 @@
                                                 href="{{ route('page.terms') }}">details</a></div>
                                     </section>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button w-button">Book a Call<span
                                             class="button-icon"></span></a></div>
                             </div>
@@ -161,7 +161,7 @@
                                                 href="{{ route('page.terms') }}">details</a></div>
                                     </section>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button w-button">Book a Call<span
                                             class="button-icon"></span></a></div>
                             </div>
@@ -207,7 +207,7 @@
                                     <div class="text-block-3">*See more <a href="{{ route('page.terms') }}">details</a>
                                     </div>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button black w-button">Book a
                                         Call<span class="button-icon"></span></a></div>
                             </div>
@@ -258,7 +258,7 @@
                                                 href="{{ route('page.terms') }}">details</a></div>
                                     </section>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button w-button">Book a Call<span
                                             class="button-icon"></span></a></div>
                             </div>
@@ -304,7 +304,7 @@
                                     <div class="text-block-3">*See more <a href="{{ route('page.terms') }}">details</a>
                                     </div>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button black w-button">Book a
                                         Call<span class="button-icon"></span></a></div>
                             </div>
@@ -355,7 +355,7 @@
                                                 href="{{ route('page.terms') }}">details</a></div>
                                     </section>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button w-button">Book a Call<span
                                             class="button-icon"></span></a></div>
                             </div>
@@ -401,7 +401,7 @@
                                     <div class="text-block-3">*See more <a href="{{ route('page.terms') }}">details</a>
                                     </div>
                                 </div>
-                                <div class="content-box-bottom-button"><a href="{{ route('page.action.book') }}"
+                                <div class="content-box-bottom-button"><a href="{{ route('page.action.booking') }}"
                                                                           class="large-button black w-button">Book a
                                         Call<span class="button-icon"></span></a></div>
                             </div>
@@ -418,7 +418,7 @@
                     <div>
                         <section>
                             <h2 class="white-text _375em-bottom-margin"><a
-                                    href="{{ route('page.action.book') }}"><strong
+                                    href="{{ route('page.action.booking') }}"><strong
                                         class="bold-text-2">Book a Call Today</strong></a></h2>
                         </section>
                         <ul role="list" class="check-list w-list-unstyled">
@@ -474,7 +474,7 @@
                         <h4 class="white-text _25em-bottom-margin">Reduce costs without compromising quality</h4>
                         <p class="_2-25em-bottom-margin">Average cost reductions: 63%<br/>Average time savings: 32
                             hrs/week</p><a
-                            href="{{ route('page.action.book') }}" class="large-button no-border w-button"><strong>Book
+                            href="{{ route('page.action.booking') }}" class="large-button no-border w-button"><strong>Book
                                 a
                                 Call</strong><span class="button-icon-2"></span></a>
                     </div>
